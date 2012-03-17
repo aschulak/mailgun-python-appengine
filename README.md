@@ -3,6 +3,8 @@
 `mailgun-python-appengine` is a python appengine client for [Mailgun]. Mailgun is a set of 
 powerful APIs that allow you to send, receive, track and store email effortlessly.
 
+This client only does send at the moment. Feel free to add extra goodness.
+
   [mailgun]: http://www.mailgun.net
 
 ## Usage
