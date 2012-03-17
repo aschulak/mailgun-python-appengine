@@ -6,7 +6,6 @@ powerful APIs that allow you to send, receive, track and store email effortlessl
   [mailgun]: http://www.mailgun.net
 
 ## Usage
-
 	import mailgun
 	
 	url = '<your mailgun url>'
