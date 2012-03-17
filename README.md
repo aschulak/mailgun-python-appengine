@@ -14,7 +14,7 @@ This client only does send at the moment. Feel free to add extra goodness.
 	api_key = '<your mailgun api key>'
 	mailgun_client = mailgun.Mailgun(url, api_key, deadline=optional_urlfetch_deadline_in_seconds)
 	result = mailgun_client.send_mail(sender, to, subject, body, html=optional_html_body, campaign='optional_campaign_code')
-	if result == 200:
+	if result.status_code == 200:
 		# hooray!
 		pass
 	else:
