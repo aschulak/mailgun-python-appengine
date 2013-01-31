@@ -6,6 +6,8 @@ powerful APIs that allow you to send, receive, track and store email effortlessl
 This client only does send at the moment. Feel free to add extra goodness.
 
   [mailgun]: http://www.mailgun.net
+  
+The URL you will need to supply is the URL to send messages for your Mailgun domain - it will look something like `https://api.mailgun.net/v2/yourdomain/messages`.
 
 ## Usage
 	import mailgun
